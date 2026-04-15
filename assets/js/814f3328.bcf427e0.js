@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([["833"],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/AI-ML-RESOURCES/blog/welcome","unlisted":false,"date":"2021-08-26T00:00:00.000Z"}]}')}}]);
