@@ -288,4 +288,18 @@ title: OpenCV Topics
         predicted = kf.predict()
         corrected = kf.correct(measurement)
         ```
+        
+27. **Label Normalization**
+    
+    - În practică, dacă nu știi dinainte x și y (min și max din date), le calculezi din train:
+    - ```python
+        min_label = df_train['angle'].min()
+        max_label = df_train['angle'].max()
+
+        # In dataset:
+        label_norm = (label - min_label) / (max_label - min_label)
+
+        # La predictie:
+        pred = pred_norm * (max_label - min_label) + min_label
+        ```
     
